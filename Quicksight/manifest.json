@@ -1,0 +1,12 @@
+{
+    "fileLocations": [
+        {
+            "URIPrefixes": [
+                "https://s3-ap-southeast-1.amazonaws.com/beta-subscribers/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "JSON"
+    }
+}
