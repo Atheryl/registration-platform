@@ -4,9 +4,7 @@ var firehose = new AWS.Firehose({region: process.env.region});
 var projectId = process.env.projectId;
 
 exports.handler = (event, context, callback) => {
-  console.log('Received event:', event.body);
   var jsonBody = JSON.parse(event.body);
-  console.log(jsonBody);
   createEndpoint(jsonBody);
   streamJson(jsonBody);
   callback(null, {

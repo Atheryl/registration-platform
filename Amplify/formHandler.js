@@ -42,7 +42,7 @@ $(document).ready(function() {
 
       $.ajax({
         type: 'POST',
-        url: {REGISTER_API_URL},
+        url: 'API_GW_URL',
         contentType: 'application/json',
         data: data,
         success: function(res) {
