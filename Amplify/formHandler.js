@@ -42,7 +42,7 @@ $(document).ready(function() {
 
       $.ajax({
         type: 'POST',
-        url: 'API_GW_URL',
+        url: 'https://vngiptos9k.execute-api.ap-southeast-1.amazonaws.com/v1_0_0/register',
         contentType: 'application/json',
         data: data,
         success: function(res) {
