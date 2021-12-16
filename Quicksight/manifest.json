@@ -2,7 +2,7 @@
     "fileLocations": [
         {
             "URIPrefixes": [
-                "https://s3-ap-southeast-1.amazonaws.com/beta-subscribers/"
+                "https://s3-ap-southeast-1.amazonaws.com/S3_BUCKET_NAME/"
             ]
         }
     ],
